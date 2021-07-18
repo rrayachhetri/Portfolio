@@ -61,8 +61,8 @@
 /*apply style to hero image*/
 .hero{
     height: 400px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;g.jpg"
+    background-image: url("../images/images.jpg");
+    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: flex-end;
@@ -76,16 +76,16 @@
     top: 150px;
     left: 30px;
     border: 3px var(--primary-color) solid;
-    height:150px;
-    width: 150px;
+    height:200px;
+    width: 200px;
   }
   
 .hero h2 {
     font-style: italic;
     font-size: 20px;
     color: var(--primary-color);
-    margin-top: 300px 0;
-    background-color:rgb(229, 232, 238);
+    margin-top: 300px;
+    
   }
 
   
@@ -119,7 +119,7 @@
     align-items: center;
   }
   
-.vl-border1 {
+.border1 {
     border-right: 3px solid #39a6b2;
     height: 150px;
     flex: 2 1%;
@@ -138,7 +138,7 @@
     width: 100%;
   }
   
-.vl-border2{
+.order2{
     border-right: 3px solid #39a6b2;
     height: 450px;
     flex: 2 5%;  
@@ -167,10 +167,8 @@
     
   }
   
-.gallery__item{
-  position: relative;
-}
-.gallery__img {
+
+.img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -189,7 +187,7 @@ figcaption{
   background-color: rgb(229, 232, 238);
 }
   
-.gallery__item--1 {
+.object1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -198,37 +196,24 @@ figcaption{
   
   }
   
-.gallery__item--2 {
+.object2 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
     }
   
-.gallery__item--3 {
+.object3 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
   }
   
-.gallery__item--4 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  }
-  
-.gallery__item--5 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  }
 
   
 /*About section style*/
-.vl-border3 {
+.order3 {
     border-right: 3px solid #39a6b2;
     height: 100px;
     flex: 2 5%;
@@ -311,11 +296,11 @@ figcaption{
       font-weight: bold;
     }
 
-    .vl-border1 {      
+    .order1 {      
       height: 350px;     
     }
 
-  .vl-border2{
+  .order2{
     height: 280px;     
   }  
     .container{
@@ -333,7 +318,7 @@ figcaption{
         font-weight: bold;
   }
 
-    .vl-border3{
+    .order3{
         height: 180px;
     }
 
