@@ -6,7 +6,7 @@ Built With
 - HTML
 - CSS
 
-https://rrayachhetri.github.io/portfolio/
+https://rrayachhetri.github.io/Portfolio/
 
 Contribution
 Made with ❤️ by Rabin Raya Chhetri
