@@ -81,8 +81,8 @@
   }
   
 .hero h2 {
-    font-style: italic;
-    font-size: 20px;
+    font-style:italic;
+    font-size: 23px;
     color: var(--primary-color);
     margin-top: 300px;
     
@@ -90,7 +90,7 @@
 
   
 /*Work section style*/
-.about{
+.intro{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -99,7 +99,7 @@
     align-items: center;
   }
   
-.flex-row {
+.section {
     display: flex;
     justify-content: left;
   }
@@ -112,24 +112,24 @@
     width: 50%;
   }
   
-.step-info{
+.info{
     flex :2 20%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
   }
   
-.border1 {
+.step1 {
     border-right: 3px solid #39a6b2;
     height: 150px;
     flex: 2 1%;
   }
   
-.step-text {
+.text {
     flex: 25;
   }
   
-.step-text p {
+.text p {
     color: var(--primary-color);
     font-size: 15px;
     text-align: left;
@@ -138,7 +138,7 @@
     width: 100%;
   }
   
-.order2{
+.step2{
     border-right: 3px solid #39a6b2;
     height: 450px;
     flex: 2 5%;  
@@ -158,7 +158,7 @@
       
   }
   
-.gallery{
+.content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 10vw);
@@ -187,7 +187,7 @@ figcaption{
   background-color: rgb(229, 232, 238);
 }
   
-.object1 {
+.Work1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -196,24 +196,26 @@ figcaption{
   
   }
   
-.object2 {
+.Work2 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    position: relative;
     }
   
-.object3 {
+.Work3 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
+  position: relative;
   }
   
 
   
 /*About section style*/
-.order3 {
+.step3 {
     border-right: 3px solid #39a6b2;
     height: 100px;
     flex: 2 5%;
@@ -286,7 +288,7 @@ figcaption{
       margin-top: 350px;
       }
 
-    .step-text p{
+    .text p{
         width: 85%;
       }
 
@@ -296,11 +298,11 @@ figcaption{
       font-weight: bold;
     }
 
-    .order1 {      
+    .step1 {      
       height: 350px;     
     }
 
-  .order2{
+  .step2{
     height: 280px;     
   }  
     .container{
@@ -318,7 +320,7 @@ figcaption{
         font-weight: bold;
   }
 
-    .order3{
+    .step3{
         height: 180px;
     }
 
