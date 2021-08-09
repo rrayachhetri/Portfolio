@@ -212,7 +212,11 @@ figcaption{
   position: relative;
   }
   
-
+.Work4 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    position: relative;
+}
   
 /*About section style*/
 .step3 {
