@@ -9,7 +9,7 @@ Built With
 
 https://rrayachhetri.github.io/Portfolio/
 
-![image of website]()
+![image of website](assets\images\portfolio.jpg)
 
  📌 by Rabin Raya Chhetri
 
