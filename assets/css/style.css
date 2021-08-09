@@ -213,11 +213,20 @@ figcaption{
   }
   
 .Work4 {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    position: relative;
+   grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
   
+.Work5 {
+  grid-column-start:2 ;
+  grid-column-end:3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  position: relative;
+  
+  }
 /*About section style*/
 .step3 {
     border-right: 3px solid #39a6b2;
