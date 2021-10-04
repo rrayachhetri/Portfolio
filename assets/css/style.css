@@ -176,7 +176,8 @@
  }
 
 figcaption{
-  position: absolute;
+  position: relative;
+  width: fit-content;
   margin-left: 5px;
   margin-top: -20%;
   font-size: 12px;
